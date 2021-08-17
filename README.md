@@ -18,6 +18,8 @@ Neutrino should have:
 - No redundancy
 - Explicit data types
 - No junk data (anything that isn't universally relevant to the vast majority of 3D software)
+- Non-hierarchical structure which can facilitate conversion between different softwares' conventions
+    - *For example: Many softwares use DAGs (Directed Acyclic Graphs) to structure their scenes, but not all of them. Neutrino should not be limited to any specific software's convention.*
 
 ### Human-readable syntax
 
