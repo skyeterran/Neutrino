@@ -1,5 +1,5 @@
 # Neutrino
-## A minimal, human-readable exchange format for 3D scene data
+## A flexible exchange format for 3D scene data
 
 > A neutrino is a fermion (an elementary particle) that interacts only via the weak interaction and gravity. The neutrino is so named because it is electrically neutral and because its rest mass is so small that it was long thought to be zero. The rest mass of the neutrino is much smaller than that of the other known elementary particles excluding massless particles. Neutrinos typically pass through normal matter unimpeded and undetected.
 - [Neutrino on Wikipedia](https://en.wikipedia.org/wiki/Neutrino)
@@ -9,7 +9,6 @@
 Neutrino should have:
 
 1. Reliable core data structure
-2. Human-readable syntax
 3. Simple cross-platform integration
 4. Safe extensibility
 
