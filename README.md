@@ -57,9 +57,6 @@ Neutrino should have:
         *Describes the right axis of the scene ("x", "-x", "y", "-y", "z", or "-z")*
 - scene [dict]
 *The hierarchy of objects in the scene, stored as a recursive tree of objects and their children.*
-
-    **NEW: Objects can be parented to one another, preserving the original organization of the scene.**
-
     - {object name} [dict]
     *The name of the object in the scene hierarchy is the same as its name in the objects dictionary which details its properties below.*
         - transform [dict]
@@ -86,7 +83,6 @@ Neutrino should have:
             *The relative file path of the source file for this object, for example: an FBX file for a mesh.*
             - materials [array] [optional] [used by: mesh]
             *List of the names of the materials applied to the mesh, in order of material assignment.*
-            **NEW: Supports multiple materials per-object.**
 - materials [dict]
 *A list of named materials in the scene.*
     - {material name} [dict]
@@ -97,10 +93,10 @@ Neutrino should have:
                 - type [string]
                 *The datatype of the parameter ("scalar", "vector", or "texture")*
                 - value [array or string]
-                *The value of the parameter, which depends on the parameter type:
-                - If it's a scalar: a float declaring the value.
-                - If it's a vector: an array of length 4 declaring RGBA values.
-                - If it's a texture: the relative file path of the texture map.*
+                *The value of the parameter, which depends on the parameter type:*
+                - *If it's a scalar: a float declaring the value.*
+                - *If it's a vector: an array of length 4 declaring RGBA values.*
+                - *If it's a texture: the relative file path of the texture map.*
 
 ### Example
 
