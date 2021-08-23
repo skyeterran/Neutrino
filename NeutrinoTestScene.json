@@ -20,7 +20,7 @@
                 {
                     "name": [
                         "name",
-                        "F0O8L98N"
+                        "8KF4IW7J"
                     ],
                     "asset": "#0x9",
                     "trans": "#0xa"
@@ -31,11 +31,11 @@
                 {
                     "name": [
                         "name",
-                        "PMG7JNPR"
+                        "6IIDHIMN"
                     ],
                     "asset": [
                         "asset",
-                        "2YGVO7W4"
+                        "L3T5A6RD"
                     ],
                     "trans": "#0xa"
                 }
@@ -45,7 +45,7 @@
                 {
                     "name": [
                         "name",
-                        "RW53IYCM"
+                        "S7FS45HQ"
                     ],
                     "asset": "#0x9",
                     "trans": "#0xa"
@@ -56,12 +56,9 @@
                 {
                     "name": [
                         "name",
-                        "6SS003XM"
+                        "LVAWTY6W"
                     ],
-                    "asset": [
-                        "asset",
-                        "7YRERZGM"
-                    ],
+                    "asset": "#0xb",
                     "trans": "#0xa"
                 }
             ],
@@ -70,9 +67,9 @@
                 {
                     "name": [
                         "name",
-                        "8L4JU4I1"
+                        "OADE7KQG"
                     ],
-                    "asset": "#0x9",
+                    "asset": "#0xb",
                     "trans": "#0xa"
                 }
             ]
@@ -83,8 +80,9 @@
                 {
                     "name": [
                         "name",
-                        "QCR0823N"
-                    ]
+                        "QT5Z6AA9"
+                    ],
+                    "file": "#0xc"
                 }
             ],
             "0x2": [
@@ -92,8 +90,9 @@
                 {
                     "name": [
                         "name",
-                        "7YRERZGM"
-                    ]
+                        "L3T5A6RD"
+                    ],
+                    "file": "#0xc"
                 }
             ],
             "0x3": [
@@ -101,8 +100,9 @@
                 {
                     "name": [
                         "name",
-                        "2YGVO7W4"
-                    ]
+                        "7OAGNOGS"
+                    ],
+                    "file": "#0xc"
                 }
             ]
         }
@@ -110,7 +110,7 @@
     "cache": {
         "#0x9": [
             "asset",
-            "QCR0823N"
+            "7OAGNOGS"
         ],
         "#0xa": [
             "trans",
@@ -131,6 +131,14 @@
                     1.0
                 ]
             ]
+        ],
+        "#0xb": [
+            "asset",
+            "QT5Z6AA9"
+        ],
+        "#0xc": [
+            "path",
+            "Assets/TestAsset.obj"
         ]
     }
 }
