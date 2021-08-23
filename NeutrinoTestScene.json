@@ -20,10 +20,10 @@
                 {
                     "name": [
                         "name",
-                        "MN7SY1DZ"
+                        "NO94Z37B"
                     ],
                     "asset": "*0x1",
-                    "trans": "#0x9"
+                    "trans": "#0x1"
                 }
             ],
             "0x5": [
@@ -31,10 +31,10 @@
                 {
                     "name": [
                         "name",
-                        "JIZTJG2T"
+                        "NC302YU1"
                     ],
-                    "asset": "*0x3",
-                    "trans": "#0x9"
+                    "asset": "*0x2",
+                    "trans": "#0x1"
                 }
             ],
             "0x6": [
@@ -42,10 +42,10 @@
                 {
                     "name": [
                         "name",
-                        "78LMETC7"
+                        "GW5625SS"
                     ],
-                    "asset": "*0x2",
-                    "trans": "#0x9"
+                    "asset": "*0x3",
+                    "trans": "#0x1"
                 }
             ],
             "0x7": [
@@ -53,10 +53,10 @@
                 {
                     "name": [
                         "name",
-                        "4PEMWVMY"
+                        "THUUN5IN"
                     ],
                     "asset": "*0x3",
-                    "trans": "#0x9"
+                    "trans": "#0x1"
                 }
             ],
             "0x8": [
@@ -64,10 +64,10 @@
                 {
                     "name": [
                         "name",
-                        "N553FJRY"
+                        "JT5FVYOW"
                     ],
-                    "asset": "*0x1",
-                    "trans": "#0x9"
+                    "asset": "*0x2",
+                    "trans": "#0x1"
                 }
             ]
         },
@@ -77,9 +77,9 @@
                 {
                     "name": [
                         "name",
-                        "ONQSQMWX"
+                        "3QDJ22P1"
                     ],
-                    "file": "#0xa"
+                    "file": "#0x2"
                 }
             ],
             "0x2": [
@@ -87,9 +87,9 @@
                 {
                     "name": [
                         "name",
-                        "GTIRGEOQ"
+                        "49ITSLZI"
                     ],
-                    "file": "#0xa"
+                    "file": "#0x2"
                 }
             ],
             "0x3": [
@@ -97,15 +97,15 @@
                 {
                     "name": [
                         "name",
-                        "DA6GXN8J"
+                        "O6YSH0DS"
                     ],
-                    "file": "#0xa"
+                    "file": "#0x2"
                 }
             ]
         }
     },
     "cache": {
-        "#0x9": [
+        "0x1": [
             "trans",
             [
                 [
@@ -125,7 +125,7 @@
                 ]
             ]
         ],
-        "#0xa": [
+        "0x2": [
             "path",
             "Assets/TestAsset.obj"
         ]
