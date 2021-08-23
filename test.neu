@@ -1,18 +1,19 @@
 // this is a comment
-meta =
-    scale:float = 1.0,
-,
-graph =
-    &0 =
-        name:string = "SM_LargeWindow_A",
-        mesh:mesh = *2,
-        transform:trans = #b,
-    ,
-    &1 =
-        name:string = "SM_LargeWindow_A2",
-        mesh:mesh = *2,
-        transform:trans = #b,
-,
-cache =
+meta = {
+    scale:float = 1.0
+}
+graph = {
+    &0 = {
+        name:string = "SM_LargeWindow_A"
+        mesh:mesh = *2
+        transform:trans = #b
+    }
+    &1 = {
+        name:string = "SM_LargeWindow_A2"
+        mesh:mesh = *2
+        transform:trans = #b
+    }
+}
+cache = {
     //
-,
+}

@@ -1,0 +1,103 @@
+{
+    "graph": {
+        "scene": {
+            "meta": {
+                "name": "Neutrino Test Scene"
+            },
+            "objects": {
+                "0x4": {
+                    "name": {
+                        "t": "name",
+                        "v": "EY59QAA0"
+                    },
+                    "asset": "#0x9",
+                    "trans": "#0xa"
+                },
+                "0x5": {
+                    "name": {
+                        "t": "name",
+                        "v": "DK7AGBDR"
+                    },
+                    "asset": {
+                        "t": "asset",
+                        "v": "*0x1"
+                    },
+                    "trans": "#0xa"
+                },
+                "0x6": {
+                    "name": {
+                        "t": "name",
+                        "v": "TJFARWI7"
+                    },
+                    "asset": {
+                        "t": "asset",
+                        "v": "*0x2"
+                    },
+                    "trans": "#0xa"
+                },
+                "0x7": {
+                    "name": {
+                        "t": "name",
+                        "v": "NPW1NN32"
+                    },
+                    "asset": "#0x9",
+                    "trans": "#0xa"
+                },
+                "0x8": {
+                    "name": {
+                        "t": "name",
+                        "v": "ZUYHYVNZ"
+                    },
+                    "asset": "#0x9",
+                    "trans": "#0xa"
+                }
+            }
+        },
+        "assets": {
+            "0x1": {
+                "name": {
+                    "t": "name",
+                    "v": "ZDENIALL"
+                }
+            },
+            "0x2": {
+                "name": {
+                    "t": "name",
+                    "v": "CLO2S21B"
+                }
+            },
+            "0x3": {
+                "name": {
+                    "t": "name",
+                    "v": "XEG2P4VV"
+                }
+            }
+        }
+    },
+    "cache": {
+        "#0x9": {
+            "t": "asset",
+            "v": "*0x3"
+        },
+        "#0xa": {
+            "t": "trans",
+            "v": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    1.0,
+                    1.0,
+                    1.0
+                ]
+            ]
+        }
+    }
+}
