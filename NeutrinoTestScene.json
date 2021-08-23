@@ -1,87 +1,120 @@
 {
+    "meta": {
+        "name": [
+            "name",
+            "Neutrino Test Scene"
+        ],
+        "scale": [
+            "float",
+            1.0
+        ],
+        "asset_path": [
+            "path",
+            "./"
+        ]
+    },
     "graph": {
         "scene": {
-            "meta": {
-                "name": "Neutrino Test Scene"
-            },
-            "objects": {
-                "0x4": {
-                    "name": {
-                        "t": "name",
-                        "v": "EY59QAA0"
-                    },
-                    "asset": "#0x9",
-                    "trans": "#0xa"
-                },
-                "0x5": {
-                    "name": {
-                        "t": "name",
-                        "v": "DK7AGBDR"
-                    },
-                    "asset": {
-                        "t": "asset",
-                        "v": "*0x1"
-                    },
-                    "trans": "#0xa"
-                },
-                "0x6": {
-                    "name": {
-                        "t": "name",
-                        "v": "TJFARWI7"
-                    },
-                    "asset": {
-                        "t": "asset",
-                        "v": "*0x2"
-                    },
-                    "trans": "#0xa"
-                },
-                "0x7": {
-                    "name": {
-                        "t": "name",
-                        "v": "NPW1NN32"
-                    },
-                    "asset": "#0x9",
-                    "trans": "#0xa"
-                },
-                "0x8": {
-                    "name": {
-                        "t": "name",
-                        "v": "ZUYHYVNZ"
-                    },
+            "0x4": [
+                "object",
+                {
+                    "name": [
+                        "name",
+                        "F0O8L98N"
+                    ],
                     "asset": "#0x9",
                     "trans": "#0xa"
                 }
-            }
+            ],
+            "0x5": [
+                "object",
+                {
+                    "name": [
+                        "name",
+                        "PMG7JNPR"
+                    ],
+                    "asset": [
+                        "asset",
+                        "2YGVO7W4"
+                    ],
+                    "trans": "#0xa"
+                }
+            ],
+            "0x6": [
+                "object",
+                {
+                    "name": [
+                        "name",
+                        "RW53IYCM"
+                    ],
+                    "asset": "#0x9",
+                    "trans": "#0xa"
+                }
+            ],
+            "0x7": [
+                "object",
+                {
+                    "name": [
+                        "name",
+                        "6SS003XM"
+                    ],
+                    "asset": [
+                        "asset",
+                        "7YRERZGM"
+                    ],
+                    "trans": "#0xa"
+                }
+            ],
+            "0x8": [
+                "object",
+                {
+                    "name": [
+                        "name",
+                        "8L4JU4I1"
+                    ],
+                    "asset": "#0x9",
+                    "trans": "#0xa"
+                }
+            ]
         },
         "assets": {
-            "0x1": {
-                "name": {
-                    "t": "name",
-                    "v": "ZDENIALL"
+            "0x1": [
+                "asset",
+                {
+                    "name": [
+                        "name",
+                        "QCR0823N"
+                    ]
                 }
-            },
-            "0x2": {
-                "name": {
-                    "t": "name",
-                    "v": "CLO2S21B"
+            ],
+            "0x2": [
+                "asset",
+                {
+                    "name": [
+                        "name",
+                        "7YRERZGM"
+                    ]
                 }
-            },
-            "0x3": {
-                "name": {
-                    "t": "name",
-                    "v": "XEG2P4VV"
+            ],
+            "0x3": [
+                "asset",
+                {
+                    "name": [
+                        "name",
+                        "2YGVO7W4"
+                    ]
                 }
-            }
+            ]
         }
     },
     "cache": {
-        "#0x9": {
-            "t": "asset",
-            "v": "*0x3"
-        },
-        "#0xa": {
-            "t": "trans",
-            "v": [
+        "#0x9": [
+            "asset",
+            "QCR0823N"
+        ],
+        "#0xa": [
+            "trans",
+            [
                 [
                     0.0,
                     0.0,
@@ -98,6 +131,6 @@
                     1.0
                 ]
             ]
-        }
+        ]
     }
 }
