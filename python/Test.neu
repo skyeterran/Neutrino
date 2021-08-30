@@ -1,0 +1,14 @@
+@{
+    string,
+    float,
+    int
+}
+#{
+    2:"100"
+}
+*{
+    &0,
+    0:"Hello, world! Here's a bunch of special characters: @#*{},,/|,{{}#@*",
+    1:"512.0",
+    &0
+}

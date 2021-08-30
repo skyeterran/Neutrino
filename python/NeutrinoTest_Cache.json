@@ -1,0 +1,18 @@
+[
+    {
+        "type": "int",
+        "value": 100
+    },
+    {
+        "type": "string",
+        "value": "Hello, world! Here's a bunch of special characters: @#*{},,/|,{{}#@*"
+    },
+    {
+        "type": "float",
+        "value": 512.0
+    },
+    {
+        "type": "int",
+        "value": 100
+    }
+]
