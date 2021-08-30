@@ -1,18 +1,54 @@
 [
     {
-        "type": "int",
-        "value": 100
+        "type": {
+            "name": "string",
+            "parameters": []
+        },
+        "value": "Hello, world! Here's a bunch of special characters: &@#*{},,/|,{{}#@*"
     },
     {
-        "type": "string",
-        "value": "Hello, world! Here's a bunch of special characters: @#*{},,/|,{{}#@*"
-    },
-    {
-        "type": "float",
+        "type": {
+            "name": "float",
+            "parameters": []
+        },
         "value": 512.0
     },
     {
-        "type": "int",
+        "type": {
+            "name": "int",
+            "parameters": []
+        },
         "value": 100
+    },
+    {
+        "type": {
+            "name": "vector",
+            "parameters": []
+        },
+        "value": [
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    {
+        "type": {
+            "name": "object",
+            "parameters": [
+                {
+                    "name": "position",
+                    "type": "vector"
+                },
+                {
+                    "name": "rotation",
+                    "type": "vector"
+                },
+                {
+                    "name": "scale",
+                    "type": "vector"
+                }
+            ]
+        },
+        "value": "0.0,0.0,0.0/0.0,0.0,0.0/0.0,0.0,0.0"
     }
 ]

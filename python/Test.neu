@@ -1,14 +1,21 @@
 @{
     string,
     float,
-    int
+    int,
+    vector,
+    position,
+    rotation,
+    scale,
+    object
 }
 #{
-    2:"100"
+    2:"100",
+    3:"0.0,0.0,0.0"
 }
 *{
-    &0,
-    0:"Hello, world! Here's a bunch of special characters: @#*{},,/|,{{}#@*",
+    0:"Hello, world! Here's a bunch of special characters: &@#*{},,/|,{{}#@*",
     1:"512.0",
-    &0
+    &0,
+    &1,
+    7=4.3/5.3/6.3:"0.0,0.0,0.0/0.0,0.0,0.0/0.0,0.0,0.0"
 }
